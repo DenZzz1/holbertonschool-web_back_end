@@ -13,4 +13,3 @@ async def measure_runtime() -> float:
     await asyncio.gather(*tasks)
     time2 = time.perf_counter()
     return time2 - time1
-    
